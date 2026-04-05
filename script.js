@@ -11,7 +11,7 @@ const QUIZ_CONFIG = {
 };
 
 // Questions yahan likho - jitne chahiye utne add/remove kar sakte ho
-const quizQuestions = [
+const questions = [
   {
     num: 1,
     hindi: "भारत की पहली हाइड्रोजन पावर ट्रेन का टेस्ट किस संगठन ने कंडक्ट कराया?",
@@ -533,9 +533,41 @@ const quizQuestions = [
 
 // Sections define karo - optional (questions ko groups mein divide karta hai)
 const sections = [
-  { label: "प्रश्न 1–5 | Questions 1–5 (फैक्टोरियल और शब्द | Factorial & Words)", start: 0, end: 5 },
-  { label: "प्रश्न 6–10 | Questions 6–10 (समिति और संख्याएं | Committee & Numbers)", start: 5, end: 10 },
-  { label: "प्रश्न 11–15 | Questions 11–15 (गोल मेज और बिंदु | Circular & Points)", start: 10, end: 15 }
+  {
+    label: "प्रश्न 1–5 | Questions 1–5 (हाइड्रोजन ट्रेन से Earth Hour | Hydrogen Train to Earth Hour)",
+    start: 0,
+    end: 5
+  },
+  {
+    label: "प्रश्न 6–10 | Questions 6–10 (बुलेट ट्रेन से Para Archer | Bullet Train to Para Archer)",
+    start: 6,
+    end: 10
+  },
+  {
+    label: "प्रश्न 11–15 | Questions 11–15 (महावीर जयंती से नेपाल | Mahavir Jayanti to Nepal)",
+    start: 11,
+    end: 15
+  },
+  {
+    label: "प्रश्न 16–20 | Questions 16–20 (संग्रहालय से IPL | Museum to IPL)",
+    start: 16,
+    end: 20
+  },
+  {
+    label: "प्रश्न 21–25 | Questions 21–25 (आंध्र प्रदेश से DGCA | Andhra Pradesh to DGCA)",
+    start: 21,
+    end: 25
+  },
+  {
+    label: "प्रश्न 26–30 | Questions 26–30 (Yamaha से भूकंप | Yamaha to Earthquake)",
+    start: 26,
+    end: 30
+  },
+  {
+    label: "प्रश्न 31–37 | Questions 31–37 (YuVika से नागालैंड | YuVika to Nagaland)",
+    start: 31,
+    end: 37
+  }
 ];
 
 // ═══════════════════════════════════════════════════════════════════
